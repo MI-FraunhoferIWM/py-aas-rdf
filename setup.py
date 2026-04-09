@@ -10,7 +10,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['pydantic>=2.3,<=2.8.7', 'rdflib>=7', ]
+requirements = ['pydantic>=2.3,<=2.8.7', 'rdflib>=6,<7', ]
 
 test_requirements = ['pytest>=3', ]
 
